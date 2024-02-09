@@ -10,8 +10,8 @@ library(leaflet)
 library(htmlwidgets)
 
 # Read data
-ped_data <- read.csv("Data/2020_Person_Level_Crash_Details.csv")
-rta_data <- read.csv("Data/RTA_Bus_Stops.csv")
+ped_data <- read.csv("2020_Person_Level_Crash_Details.csv")
+rta_data <- read.csv("RTA_Bus_Stops.csv")
 
 # Process pedestrian data, reconfigure lat + long, filter for unique crash instances
 ped_data_injury <- ped_data %>%
